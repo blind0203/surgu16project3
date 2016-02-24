@@ -1,34 +1,46 @@
 /* HEADER */
 /* CONTENT */
 /* line 4 */
+body {
+  background-image: url("../img/backimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 11 */
 #index-container {
   margin-top: 25vh;
 }
 
-/* line 10 */
+/* line 17 */
 #logo {
   display: flex;
   justify-content: center;
 }
 
-/* line 14 */
+/* line 21 */
 #search {
   display: flex;
   justify-content: center;
 }
 
-/* line 19 */
+/* line 26 */
 #search div input {
   width: 50vw;
   margin-right: 1em;
 }
 
 /* FOOTER */
-/* line 25 */
+/* line 32 */
 #footer-container {
   color: grey;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: flex-end;
+}
+
+/* line 44 */
+#footer-container :hover {
+  color: red;
 }
