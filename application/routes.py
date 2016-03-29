@@ -10,6 +10,14 @@ from application.controllers import *
 def index_route():
 	return index.__return__()
 
+@app.route("/login")
+def login_route():
+	return render_template("login.jhtml")
+
+@app.route("/registration")
+def registration_route():
+	return render_template("registration.jhtml")
+
 '''
 # BOARD MODULE
 #
